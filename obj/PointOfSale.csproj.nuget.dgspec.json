@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\PointOfSale.csproj": {}
+    "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\PointOfSale.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\PointOfSale.csproj": {
+    "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\PointOfSale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\PointOfSale.csproj",
+        "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\PointOfSale.csproj",
         "projectName": "PointOfSale",
-        "projectPath": "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\PointOfSale.csproj",
+        "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\PointOfSale.csproj",
         "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\obj\\",
+        "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"

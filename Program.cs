@@ -6,7 +6,13 @@ namespace PointOfSale
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var handler = new PaymentHandler();
+
+            handler.addProduct("Pogchamp", 420, 8);
+            
+            var pog = handler.getProduct("Pogchamp");
+
+            Console.WriteLine(pog.name);
         }
     }
 }

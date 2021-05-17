@@ -1,10 +1,12 @@
+using System.Collections.Generic;
+
 namespace PointOfSale
 {
     public class PaymentService
     {
-          public List<Payment> pending;
+        public List<Payment> pending;
 
-        public void addPaymnet(Payment payment) {
+        public void addPayment(Payment payment) {
             pending.Add(payment);
         }
 
