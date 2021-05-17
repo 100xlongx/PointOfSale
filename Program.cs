@@ -9,10 +9,14 @@ namespace PointOfSale
             var handler = new PaymentHandler();
 
             handler.addProduct("Pogchamp", 420, 8);
+            handler.createPayment("1234", "John Doe", "12/20", "567");
+            handler.addShipment("Pogchamp", "123 Cauliflower Lane", "Fairy Land", "55555", "Califorinia");
             
-            var pog = handler.getProduct("Pogchamp");
+            var prod = handler.getProduct("Pogchamp");
+            var payment = handler.getPaymentName("John Doe");
 
-            Console.WriteLine(pog.name);
+            Console.WriteLine($"Product Name: {prod.name}");
+            Console.WriteLine($"Payment Name: {payment._cardHolderName}");
         }
     }
 }

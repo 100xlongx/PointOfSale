@@ -6,8 +6,8 @@ namespace PointOfSale
         private ShippingService shippingService = new ShippingService();
         private PaymentService paymentService = new PaymentService();
 
-        public void createPayment() {
-            var payment = new Payment("1234", "pickle rick", "12/20", "123");
+        public void createPayment(string cardNums, string name, string exp, string cv) {
+            var payment = new Payment(cardNums, name, exp, cv);
             paymentService.addPayment(payment);
         }
 
@@ -27,9 +27,13 @@ namespace PointOfSale
             return inventoryService.GetProduct(name);
         }
 
-        public void addShipment() {
-            var product = inventoryService.GetProduct("Pogchamp");
-            var address = new Address("123 Cauliflower Lane", "Fairy Land", "55555", "Oppression");
+        public Payment getPaymentName(string name) {
+            return paymentService.GetPaymentName(name);
+        }
+
+        public void addShipment(string productName, string street, string city, string zip, string state) {
+            var product = inventoryService.GetProduct(productName);
+            var address = new Address(street, city, zip, state);
 
             var shipment = new Shipment(address, product, 1);
             shippingService.addShipment(shipment);

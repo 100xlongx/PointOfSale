@@ -3,7 +3,7 @@ namespace PointOfSale
     public class Payment
     {
         public string _creditCardNum;
-        private string _cardHolderName;
+        public string _cardHolderName;
         private string _expirationDate;
         private string _cVNum;
 
@@ -12,6 +12,11 @@ namespace PointOfSale
             this._cardHolderName = holderName;
             this._expirationDate = expirationDate;
             this._cVNum = cv;
+        }
+
+        public string getName()
+        {
+            return _cardHolderName;
         }
     }
 }
