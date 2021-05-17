@@ -1,7 +1,7 @@
 
 namespace PointOfSale
 {
-    class Product
+    public class Product
     {
         public string name { get; set; }
         public int pricing { get; set; }

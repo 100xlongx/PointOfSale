@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\PointOfSale.csproj",
+      "projectUniqueName": "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\PointOfSale.csproj",
       "projectName": "PointOfSale",
-      "projectPath": "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\PointOfSale.csproj",
+      "projectPath": "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\PointOfSale.csproj",
       "packagesPath": "C:\\Users\\Lntinfotech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lntinfotech\\galvanize\\PointOfSale\\obj\\",
+      "outputPath": "c:\\Users\\Lntinfotech\\Projects\\PointOfSale\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lntinfotech\\AppData\\Roaming\\NuGet\\NuGet.Config"
